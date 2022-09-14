@@ -1,0 +1,118 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  background: #242129;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.title {
+  margin: unset !important;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.action {
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.activeRent {
+  display: flex;
+  flex-direction: column;
+  background-color:  rgba(115, 110, 125, 0.24);
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12px;
+}
+
+.rentMessage {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column:not(:last-child) {
+  margin-right: 68px;
+}
+
+.columnHeader {
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #736E7D;
+  padding-bottom: 4px;
+}
+
+.columnContent {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  color: var(--primary-text);
+  width: 100%;
+  display: flex;
+  align-items: top;
+}
+
+.date {
+  margin-top: 5px;
+  color: #736E7D;
+  font-size: 18px;
+}
+
+.actionButton:global(.ui.button) {
+  border: 1px solid var(--gray);
+  padding: 7px 15px;
+  min-width: unset;
+  color: var(--primary);
+}
+
+.actionButton:global(.ui.button):hover {
+  color: var(--primary)
+}
+
+.notShrink {
+  flex: 1 0 auto;
+}
+
+.shrinkAndExpand {
+  flex: 1 1 auto;
+}
+
+.profile {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.activeRentActions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
