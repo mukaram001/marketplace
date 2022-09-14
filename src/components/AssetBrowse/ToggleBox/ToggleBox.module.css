@@ -17,11 +17,11 @@
 }
 
 .item:hover {
-  background: var(--secondary);
+  background:#241A46;
 }
 
 .active {
-  background: var(--secondary);
+  background: #241A46;
 }
 
 .disabled {

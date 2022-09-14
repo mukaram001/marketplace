@@ -60,9 +60,12 @@ ul.Menu li:hover,
 ul.Menu li.active {
   color: white;
   font-weight: 600;
-  background-color: var(--card);
+  background-color: #39205C;
+ 
 }
-
+.MenuItem .content{
+  background-color: transparent !important;
+}
 ul.Menu li.active {
   cursor: default;
 }

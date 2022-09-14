@@ -37,7 +37,7 @@
 
 .NFTFilters .filters {
   padding: 16px;
-  background-color: var(--card);
+  background-color: #241A46 ;
   border-radius: 16px;
   margin-bottom: 32px;
   user-select: none;
@@ -82,7 +82,7 @@
   margin-right: 0px;
   padding-left: 33px;
   line-height: 12px;
-  color: var(--primary) !important;
+  color:#B445A3 ;
 }
 
 .NFTFilters .ui.toggle.checkbox input.hidden + label:before {
@@ -91,7 +91,7 @@
 }
 
 .NFTFilters .ui.toggle.checkbox input.hidden + label:after {
-  background: var(--primary);
+  background: #B445A3;
   width: 12px;
   height: 12px;
 }
@@ -112,7 +112,7 @@
 }
 
 .NFTFilters .open-filters-wrapper .label {
-  color: var(--primary);
+  color:#B445A3;
   text-transform: uppercase;
   margin-right: 10px;
   font-weight: 500;
@@ -146,7 +146,7 @@
   line-height: 12px;
   text-transform: uppercase;
   cursor: pointer;
-  color: var(--primary);
+  color: #B445A3;
 }
 
 /*------------------
@@ -155,7 +155,7 @@
 
 .FiltersModal .NFTSidebar ul.menu li:hover,
 .FiltersModal .NFTSidebar ul.menu li.active {
-  background-color: var(--secondary-on-modal);
+  background-color: #B445A3;
 }
 
 .FiltersModal .filter-row {
@@ -221,8 +221,9 @@
 }
 
 .NFTFilters .smart-toggle {
-  background: #37333d;
+  background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%) !important;
   padding: 8px;
+ 
   border-radius: 6px;
   width: 32px;
   height: 32px;
@@ -232,7 +233,7 @@
 }
 
 .NFTFilters .smart-toggle.is-enabled {
-  background: var(--primary);
+  background: #B445A3;
 }
 
 @media (max-width: 768px) {

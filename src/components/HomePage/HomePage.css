@@ -12,7 +12,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.badge {
+  background-color: #241A46 !important;
+}
 .HomePageHero.dcl.hero .ui.header.hero-subtitle {
   margin-bottom: 24px;
   color: var(--secondary-text);

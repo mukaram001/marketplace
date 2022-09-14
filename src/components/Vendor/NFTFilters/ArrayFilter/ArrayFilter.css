@@ -5,21 +5,29 @@
 
 .ArrayFilter .options .option {
   padding: 5px 10px;
-  background-color: #37333d;
-  border-radius: 16px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid #795FAB;
+  color: #795FAB;
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 8px;
 }
-
+.ArrayFilter .options .option:hover {
+  background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%);
+ color: #ffff;
+  border: 0;
+  
+}
 .ArrayFilter .options .option:last-child {
   margin-right: 0px;
 }
 
 .ArrayFilter .options .option.selected {
-  background-color: var(--primary);
+ background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%);
+ color: #ffff;
 }
 
 @media (max-width: 768px) {

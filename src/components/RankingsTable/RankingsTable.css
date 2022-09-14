@@ -135,9 +135,11 @@
   font-size: 18px;
   margin-top: 12px;
 }
-
+.dcl.tab .active-bar {
+  border-bottom: 3px solid #B445A3 !important;
+}
 .RankingsTable .empty-state-container .empty-state-action-button {
-  color: var(--primary);
+  color: #B445A3;
   cursor: pointer;
   margin-right: 3px;
 }

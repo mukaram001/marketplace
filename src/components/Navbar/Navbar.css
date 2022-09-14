@@ -1,11 +1,21 @@
 .dcl.navbar .ui.menu .item .bell {
   color: var(--text);
 }
+.dcl.logo{
+  background-image: url('../../images/logoMAIN.png') !important;
+  background-position: center;
+  background-size: cover;
+  width: 36px !important;
+  height: 36px !important;
 
+  background-repeat: no-repeat;
+}
 .dcl.navbar .ui.menu .item.active .bell {
   color: var(--primary);
 }
-
+.navbar{
+  background: #331E55;
+}
 .dcl.navbar .ui.menu .item .bell.pending:after {
   content: '';
   width: 5px;
