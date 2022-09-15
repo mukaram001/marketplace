@@ -1,8 +1,8 @@
 .dcl.navbar .ui.menu .item .bell {
   color: var(--text);
 }
-.dcl.logo{
-  background-image: url('../../images/logoMAIN.png') !important;
+.dcl.logo {
+  background-image: url('../../images/MANIA\ LANDS\ LOGO\ 1\ \(1\).png') !important;
   background-position: center;
   background-size: cover;
   width: 36px !important;
@@ -13,8 +13,14 @@
 .dcl.navbar .ui.menu .item.active .bell {
   color: var(--primary);
 }
-.navbar{
-  background: #331E55;
+.navbar {
+  background: #331e55;
+}
+.dcl.user-menu-wrapper .activity-bell.item .bell {
+  color: #b445a3 !important;
+}
+.dcl.user-menu .menu {
+  background-color: #241a46 !important;
 }
 .dcl.navbar .ui.menu .item .bell.pending:after {
   content: '';

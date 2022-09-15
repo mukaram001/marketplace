@@ -132,7 +132,7 @@
 }
 
 .AssetImage .preview-toggle-wrapper .preview-toggle.is-active {
-  background-color: var(--primary);
+  background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%);
 }
 
 .AssetImage .preview-toggle-wrapper .preview-toggle.is-disabled {

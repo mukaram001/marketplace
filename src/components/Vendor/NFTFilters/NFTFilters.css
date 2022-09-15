@@ -37,7 +37,7 @@
 
 .NFTFilters .filters {
   padding: 16px;
-  background-color: #241A46 ;
+  background-color: #241a46;
   border-radius: 16px;
   margin-bottom: 32px;
   user-select: none;
@@ -82,20 +82,40 @@
   margin-right: 0px;
   padding-left: 33px;
   line-height: 12px;
-  color:#B445A3 ;
+  color: #b445a3;
 }
 
 .NFTFilters .ui.toggle.checkbox input.hidden + label:before {
-  width: 28px;
-  height: 12px;
+  width: 30px;
+  height: 14px;
+}
+.ui.toggle.checkbox.checked input.hidden + label:before, .ui.toggle.checkbox.checked input.hidden:focus + label:before {
+  background-color:#795FAB !important ;
+}
+.ui.button.primary {
+background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%) !important;  
 }
 
+.ui.button.primary:hover {
+  background: #B445A3 !important;
+  color: #fff !important;
+}
+.inverted {
+  color: #fff !important;
+}
 .NFTFilters .ui.toggle.checkbox input.hidden + label:after {
-  background: #B445A3;
-  width: 12px;
-  height: 12px;
+  /* background: #b445a3; */
+  background: #AEA5BC;
+  width: 14px;
+  height: 14px;
 }
-
+.ui.button.inverted.primary {
+  color:#795FAB ; 
+     border: 1px solid #795FAB !important;
+}
+.ui.dropdown > .dropdown.icon {
+  color: #fff !important;
+}
 .NFTFilters .ui.toggle.checkbox label,
 .NFTFilters .ui.dropdown > .text {
   text-transform: uppercase;
@@ -112,7 +132,7 @@
 }
 
 .NFTFilters .open-filters-wrapper .label {
-  color:#B445A3;
+  color: #b445a3;
   text-transform: uppercase;
   margin-right: 10px;
   font-weight: 500;
@@ -146,7 +166,7 @@
   line-height: 12px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #B445A3;
+  color: #b445a3;
 }
 
 /*------------------
@@ -155,7 +175,7 @@
 
 .FiltersModal .NFTSidebar ul.menu li:hover,
 .FiltersModal .NFTSidebar ul.menu li.active {
-  background-color: #B445A3;
+  background-color: #b445a3;
 }
 
 .FiltersModal .filter-row {
@@ -219,11 +239,18 @@
   text-transform: uppercase;
   color: var(--text);
 }
-
+.NFTFilters .smart-toggle:hover {
+  background: linear-gradient(
+    263.2deg,
+    #b445a3 -4.72%,
+    #4d4a9b 94.44%
+  ) !important;
+}
 .NFTFilters .smart-toggle {
-  background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%) !important;
+  /* background: linear-gradient(263.2deg, #B445A3 -4.72%, #4D4A9B 94.44%) !important; */
+  background: transparent;
   padding: 8px;
- 
+  border: 1px solid #795fab;
   border-radius: 6px;
   width: 32px;
   height: 32px;
@@ -233,7 +260,11 @@
 }
 
 .NFTFilters .smart-toggle.is-enabled {
-  background: #B445A3;
+  background: linear-gradient(
+    263.2deg,
+    #b445a3 -4.72%,
+    #4d4a9b 94.44%
+  ) !important;
 }
 
 @media (max-width: 768px) {

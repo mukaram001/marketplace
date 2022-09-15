@@ -1,14 +1,16 @@
 .AccountPage .PageHeader {
   display: flex;
   align-items: center;
-  background-color: var(--card);
+  /* background: linear-gradient(113.59deg, #2D1E54 26.56%, #181532 78.37%); */
 }
 
 .AccountPage .PageHeader > div {
   margin: auto;
   text-align: center;
 }
-
+.AccountSidebar .alternative-menu-item:hover, .AccountSidebar .alternative-menu-item.selected{
+  background-color:#39205C ;
+}
 .AccountPage ul.Menu {
   margin-top: 0;
 }

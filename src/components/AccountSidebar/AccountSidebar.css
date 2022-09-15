@@ -6,7 +6,7 @@
 }
 
 .AccountSidebar ul.Menu {
-  background-color: var(--card);
+  background-color: #241a46;
   border-radius: 10px;
   padding-bottom: 21px;
 }
@@ -20,9 +20,15 @@
 }
 
 .AccountSidebar ul.Menu > .MenuItem.active {
-  background-color: #37333d;
+  background-color: #39205C;
 }
-
+.ui.dropdown .menu, .ui.upward.dropdown > .menu {
+  background-color:#191437  !important;
+  border: 1px solid #795FAB !important;
+}
+.ui.dropdown .menu > .item:hover {
+background-color:#39205C !important;
+}
 .AccountSidebar ul.Menu > .MenuItem.sub-1 {
   margin-left: 0px;
   padding-left: 32px;

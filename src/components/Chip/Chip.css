@@ -27,10 +27,12 @@
   background: rgba(var(--bluish-steel-raw), 0.64);
   color: #fff;
   display: inline-block;
+  border: 1px solid #795FAB;
 }
 
 .Chip.clickeable:hover {
-  background: var(--bluish-steel);
+  /* background: var(--bluish-steel); */
+  background: transparent;
 }
 
 .Chip.clickeable {
@@ -38,8 +40,8 @@
 }
 
 .Chip.active {
-  background: rgba(var(--bluish-steel-raw), 0.32);
-  color: var(--primary);
+  background: transparent;
+  color:#fff;
   cursor: default;
 }
 .Chip.active:hover {

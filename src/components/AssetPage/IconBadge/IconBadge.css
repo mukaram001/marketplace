@@ -5,9 +5,15 @@
   padding: 4px 12px;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #37333d;
+  border: 1px solid #795FAB;
+  /* background-color: #37333d; */
 }
-
+.ui.button, .ui.button.secondary {
+  background: rgba(57, 32, 92, 0.69) !important;
+}
+.ui.button:hover {
+  background-color: #B445A3 !important;
+}
 .IconBadge .text {
   font-size: 15px;
 }

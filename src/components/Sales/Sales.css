@@ -1,5 +1,7 @@
 /* Header with filters */
-
+.CoverPicker .add-cover{
+  color: #97448a;
+}
 .Sales .header-with-filter {
   display: flex;
   justify-content: space-between;
